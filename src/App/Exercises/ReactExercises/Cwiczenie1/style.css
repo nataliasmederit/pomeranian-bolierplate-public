@@ -1,0 +1,243 @@
+.font-test-family {
+  font-family: Chilanka;
+}
+/* [18:44] Michał Kukła
+
+import React from 'react';
+
+
+
+
+import './style.css';
+
+
+
+
+export function Cwiczenie1() {
+
+  function handleOnClick(event) {
+
+    event.preventDefault();
+
+    console.log('Kliknięto przycisk');
+
+  }
+
+
+
+
+  return (
+
+    <div className="blok-8__cwiczenie-1">
+
+      <h1>Cześć!</h1>
+
+      <p>Wpisz tekst</p>
+
+
+
+
+      <form>
+
+        <input type="text" placeholder='tekst do wpisania' />
+
+        <button type="submit" onClick={handleOnClick}>KLIKNIJ</button>
+
+      </form>
+
+    </div>
+
+  );
+
+}
+
+
+.font-test-family {
+
+  font-family: Chilanka;
+
+}
+
+
+
+
+.blok-8__cwiczenie-1 form {
+
+  display: flex;
+
+  flex-direction: column;
+
+  width: 200px;
+
+  gap: 0.5rem;
+
+}
+
+
+
+
+.blok-8__cwiczenie-1 form input {
+
+  padding: 13px 16px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 4px;
+
+}
+
+
+
+
+.blok-8__cwiczenie-1 form button {
+
+  background-color: #FE3756;
+
+  color: #fff;
+
+  padding: 20px 36px;
+
+  border: 0;
+
+  border-radius: 4px;
+
+  cursor: pointer;
+
+}import React from 'react';
+
+
+
+
+import './style.css';
+
+
+
+
+export function Cwiczenie1() {
+
+  function handleOnSubmit(event) {
+
+    event.preventDefault();
+
+    console.log('Kliknięto przycisk');
+
+    console.log(event);
+
+  }
+
+
+
+
+  return (
+
+    <div className="blok-8__cwiczenie-1">
+
+      <h1>Cześć!</h1>
+
+      <p>Wpisz tekst</p>
+
+
+
+
+      <form onSubmit={handleOnSubmit}>
+
+        <input type="text" placeholder='tekst do wpisania' />
+
+        <button type="submit">KLIKNIJ</button>
+
+      </form>
+
+    </div>
+
+  );
+
+}
+import React from 'react';
+
+
+
+
+import './style.css';
+
+
+
+
+export function Cwiczenie1() {
+
+  function handleOnSubmit(event) {
+
+    event.preventDefault();
+
+    console.log('Kliknięto przycisk');
+
+    console.log(event);
+
+  }
+
+
+
+
+  return (
+
+    <div className="blok-8__cwiczenie-1">
+
+      <h1>Cześć!</h1>
+
+      <div>
+
+        <div>
+
+          <p>Wpisz tekst</p>
+
+
+
+
+          <form onSubmit={handleOnSubmit}>
+
+            <input type="text" placeholder='tekst do wpisania' />
+
+            <button type="submit">KLIKNIJ</button>
+
+          </form>
+
+        </div>
+
+        <div>
+
+          <p>Placeholder</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  );
+
+}
+blok-8__cwiczenie-1>div {
+
+  display: flex;
+
+  gap: 5rem;
+
+}
+export function Cwiczenie1() {
+  function handleOnSubmit(event) {
+
+    event.preventDefault();
+
+    console.log(event);
+
+
+
+
+    const trescInputa = event.target[0].value;
+
+
+
+
+    console.log("Treść inputa: ", trescInputa)
+
+  }
+} */
